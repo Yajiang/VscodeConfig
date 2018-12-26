@@ -1,0 +1,13 @@
+{
+    "editor.minimap.maxColumn": 80,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": true,
+    },
+    "C_Cpp.default.includePath": ["/user/local/include",
+    "/user/include/"
+],
+"editor.snippetSuggestions": "top"
+}
