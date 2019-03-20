@@ -15,13 +15,46 @@
 	"Programmer Info":{
 		"prefix":"Eugene",
 		"body":[
-			"/******************************************************************************",
-			" *$0",
-			" *Author: Eugene",
-			" *Email: yajianghuang@outlook.com",
-			" *${CURRENT_MONTH}-${CURRENT_DATE}-${CURRENT_YEAR}",
-			" *****************************************************************************/",
+			"/// -------------------------------------------------------------------------", 
+			"/// Date: ${CURRENT_MONTH}-${CURRENT_DATE}-${CURRENT_YEAR}",
+			"/// Author: Eugene",
+			"/// Email: yajianghuang@outlook.com",
+			"/// Description: $1",
+			"/// Liscense: ",
+			"/// -------------------------------------------------------------------------", 
+			"$0"
 		],
 		"description":"Programmer Info"
+	},
+	"Include Order":{
+		"prefix":"Include",
+		"body":[
+			"/// Associated headers",
+			"",
+			"/// System headers",
+			"",
+			"/// Project headers",
+			"",
+			"/// Third party headers",
+			"",
+		],
+		"description":"Include Order"
+	},
+	"Function comment":{
+		"prefix":"///",
+		"body":[
+			"/// brief $1",
+			"/// @param $2",
+			"/// @return $3",
+		],
+		"description":"Function comment"
+	},
+	"Separator":{
+		"prefix":"/s",
+		"body":[
+			"/// -------------------------------------------------------------------------", 
+			"$0",
+		],
+		"description":"Separator"
 	}
 }

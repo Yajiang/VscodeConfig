@@ -1,13 +1,16 @@
 {
     "editor.minimap.maxColumn": 80,
-    "editor.acceptSuggestionOnEnter": "off",
+    "editor.acceptSuggestionOnEnter": "on",
     "editor.quickSuggestions": {
         "other": true,
         "comments": false,
         "strings": true,
     },
-    "C_Cpp.default.includePath": ["/user/local/include",
-    "/user/include/"
+    "C_Cpp.default.includePath": ["/usr/local/include",
+    "/usr/include/"
 ],
-"editor.snippetSuggestions": "top"
+"editor.snippetSuggestions": "top",
+"window.zoomLevel": -1,
+"workbench.iconTheme": "material-icon-theme",
+"explorer.confirmDelete": false,
 }
